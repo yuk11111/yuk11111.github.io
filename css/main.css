@@ -989,7 +989,7 @@ pre .javascript .function {
 }
 .site-title {
   display: inline-block;
-  font-family: 'Palatino Linotype', 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1.375em;
   font-weight: normal;
   line-height: 1.5;
@@ -1158,7 +1158,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #5578cf;
+  background: #ccc3e3;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2547,9 +2547,8 @@ ul.breadcrumb li + li:last-child {
   padding: 0;
 }
 body {
-  background-image: url("/images/body-background.jpg");
-  background-repeat: no-repeat;
+  background-image: url("/images/bg02.png");
+  background-repeat: repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
-  background-size: cover;
 }
